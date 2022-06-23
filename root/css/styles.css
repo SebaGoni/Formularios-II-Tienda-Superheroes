@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/*HEADER*/
+
+header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+
+}
+.rectangulo-negro {
+    height: 3vh;
+    background-color: #1CD1B0;
+    font-size: 0,93rem;
+    padding-left: 1%;
+    display: flex;
+    align-items: center;
+}
+.rectangulo-logo {
+    display: flex;
+    background-color: #00669F;
+    font-size: 1.5rem;
+}
+.nav-header {
+    display: flex;
+    justify-content: flex-end;
+    height: 5vh;
+    background-color: #001D2D;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nav-header ul {
+    display: flex;
+    align-items: center;
+}
+.nav-header ul li {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 2vw;
+    list-style-type: none;
+}
+
+/*MAIN*/
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    color: #FFFFFF;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.central {
+    width: 65vw;
+    height: 140vh;
+    font-family: Inter;
+    font-style: normal;
+    font-size: 1.25rem;
+    background: #00669F;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 5vh;
+}
+.secciones {
+    display: flex;
+}
+.izquierda {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 1vw;
+    align-items: flex-start;
+}
+.derecha {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1vw;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.nombre {
+box-sizing: border-box;
+width: 25vw;
+height: 9.5vh;
+background: #FFFFFF;
+border-radius: 0.92rem;
+margin-top: 1.5vw;
+margin-bottom: 1.5vw;
+border: 0.094rem solid rgba(0, 0, 0, 0.1);
+}
+.fecha {
+    box-sizing: border-box;
+    width: 25vw;
+    height: 9.5vh;
+    background: #FFFFFF;
+    border-radius: 0.92rem;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+    padding-left: 0.7vw;
+    padding-right: 0.8vw;
+    color: #000000;
+    border: 0.094rem solid rgba(0, 0, 0, 0.1);
+    }
+.descripcion {
+    box-sizing: border-box;
+    width: 25vw;
+    height: 50vh;
+    background: #FFFFFF;
+    border-radius: 0.92rem;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+    padding-left: 0.7vw;
+    padding-top: 1.2vw;
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.5);
+    }
+.especie {
+    display: flex;
+    width: 25vw;
+    height: 9.5vh;
+    background: #FFFFFF;
+    border-radius: 0.92rem;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+    color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0.7vw;
+    padding-right: 0.2vw;
+    border: 0.094rem solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    }
+    .especie label {
+        display: flex;
+        position: absolute;
+    }
+    .opcion {
+        border:0px;
+        outline:0px;
+    }
+    .foto {
+        width: 17vw;
+        height: 5vh;
+        background: #CECECE;
+        border-radius: 0.3rem;
+        margin-bottom: 4vw;
+        margin-top: 2.8vw;
+        border:0px;
+        outline:0px;
+        font-family: Inter;
+        font-size: 0.75rem;
+        color: #000000;
+        padding-top: 0.6vw;
+        padding-left: 0.5vw;
+        box-sizing: border-box;
+    }
+    .foto input {
+        opacity: 0;
+    }
+    .foto label {
+        order: 1;
+        position: relative;
+        top: 1vw;
+    }
+    .poderes {
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+    .poderes div {
+        font-size: 1rem;
+        margin-bottom: 0.7vw;
+    }
+    .linea {
+        width: 100%;
+        height: 0px;
+        border-style: solid;
+        border: 0.063rem solid #CCCCCC;
+        margin-bottom: 1.5vw;
+    }
+    .tipo {
+        display: flex;
+        flex-direction: column;
+    }
+    .tipo div {
+        margin-top: 1.2vw;
+    }
+    .boton-final {
+        width: 32vw;
+        height: 12vh;
+        background: #1CD1B0;
+        border-radius: 1.438rem;
+        font-weight: 700;
+        font-size: 2.5rem;
+        text-align: center;
+        color: #000000;
+        border: 0px;
+        outline: 0px;
+        margin-top: 1.8vw;
+        box-sizing: border-box;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        color: #FFF9F9;
+        height: 8vh;
+        background: #00669F;
+    }
